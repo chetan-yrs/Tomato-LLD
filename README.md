@@ -1,8 +1,10 @@
+
 OnlineFoodOrderingSystem/
 │
 ├── main.cpp                    # Composition root and entry point
 ├── TomatoApp.h                # Facade class (main orchestrator)
 │
+
 ├── models/
 │   ├── MenuItem.h
 │   ├── Restaurant.h
@@ -12,15 +14,18 @@ OnlineFoodOrderingSystem/
 │   ├── DeliveryOrder.h
 │   ├── PickupOrder.h
 │
+
 ├── managers/
 │   ├── RestaurantManager.h
 │   ├── OrderManager.h
 │
+
 ├── strategies/
 │   ├── PaymentStrategy.h      # Base class
 │   ├── CreditCardPaymentStrategy.h
 │   ├── UpiPaymentStrategy.h
 │
+
 ├── factories/
 │   ├── OrderFactory.h         # Abstract factory
 │   ├── NowOrderFactory.h
