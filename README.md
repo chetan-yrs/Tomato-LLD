@@ -2,11 +2,13 @@
 OnlineFoodOrderingSystem/
 │
 ├── main.cpp                    # Composition root and entry point
+
 ├── TomatoApp.h                # Facade class (main orchestrator)
-│
 
 ├── models/
+
 │   ├── MenuItem.h
+
 │   ├── Restaurant.h
 │   ├── User.h
 │   ├── Cart.h
